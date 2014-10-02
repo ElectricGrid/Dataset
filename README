@@ -1,0 +1,8 @@
+This dataset represents a simulation of events and inspections in an electric grid comprised of 53,525 structures over a period of 15 years (365*15 = 5475 days). Each structure is characterized by two features, namely number of Main Phase (PH) cable sets, and the age of oldest cable set. In the dataset, there are 16,425 AdHoc Inspections, 160,575 Regular Inspections, and 73,758 Events. 
+
+The first entry in each row of the event/inspection files is the structure id, followed by the times (i.e. days) where an event/inspection observation is made.
+
+The format of the features file is
+StructureId [Age of oldest cable set] [Number of Main PH cable sets]
+
+The feature values are normalized to be in the range [-0.5, 0.5]
